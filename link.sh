@@ -44,5 +44,5 @@ echo -e "$b Enter GPS Longitude (sec): $g"
 read longs
 lat=$(($latd + $latm / 60 + $lats / 60 / 60))
 long=$(($longd + $longm / 60 + $longs / 60 / 60))
-lnk="http://maps.google.com/maps?q=$lat, $long"
+lnk="http://maps.google.com/maps?q=$lat,$long"
 echo -e "$b The link is :\n$g $lnk"
